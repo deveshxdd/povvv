@@ -12,7 +12,7 @@ const testimonialsOne = {
       designation: "Bhautikiplus",
     },
     {
-      id: 2,
+      id: 2, 
       image: "GwaliorFoodsters.png",
       qoute,
       text: "Their production quality is extremely high.",

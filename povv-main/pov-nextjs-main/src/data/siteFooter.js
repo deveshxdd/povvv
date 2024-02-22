@@ -8,57 +8,57 @@ const footerData = {
     {
       id: 1,
       name: "About",
-      href: "#",
+      href: "#pricing",
     },
     {
       id: 2,
       name: "Our Team",
-      href: "#",
+      href: "#pricing",
     },
     {
       id: 3,
       name: "Features",
-      href: "#",
+      href: "#services",
     },
     {
       id: 4,
       name: "Blog",
-      href: "#",
+      href: "#blog",
     },
     {
       id: 5,
       name: "How we Work",
-      href: "#",
+      href: "#services",
     },
     {
       id: 6,
       name: "Content Marketing",
-      href: "#",
+      href: "#services",
     },
     {
       id: 7,
       name: "Performance Marketing",
-      href: "#",
+      href: "#services",
     },
     {
       id: 8,
       name: "Social Media Management",
-      href: "#",
+      href: "#services",
     },
     {
       id: 9,
       name: "Public Relations (PR)",
-      href: "#",
+      href: "#services",
     },
     {
       id: 10,
       name: "Help",
-      href: "#",
+      href: "#contact",
     },
     {
       id: 11,
       name: "Support",
-      href: "#",
+      href: "#contact",
     },
     // {
     //   id: 12,
@@ -68,24 +68,24 @@ const footerData = {
     {
       id: 13,
       name: "Contact",
-      href: "#",
+      href: "#contact",
     },
   ],
   socials: [
     {
       id: 1,
       icon: "fa fa-facebook-square",
-      href: "#",
+      href: "https://www.facebook.com/profile.php?id=61551315298679&mibextid=ZbWKwL",
     },
     {
       id: 2,
-      icon: "fa fa-twitter",
-      href: "#",
+      icon: "fa fa-linkedin",
+      href: "https://www.linkedin.com/in/pov-producktion-2b03342a8",
     },
     {
       id: 3,
       icon: "fa fa-instagram",
-      href: "#",
+      href: "https://www.instagram.com/pov.producktion/",
     },
     // {
     //   id: 4,

@@ -1,5 +1,6 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+import { Col,Image } from "react-bootstrap";
+
 
 import useActive from "@/hooks/useActive";
 
@@ -10,15 +11,17 @@ const SinglePricingOne = ({ singlePricing = {} }) => {
     <Col lg={4}>
       <div className={`pricing-one__single${isPopular ? " popular" : ""}`}>
         {/* <h3 className="pricing-one__amount">{image}</h3> */}
-        {/* <imag src={require(`/src/assets/images/${imag}`).default.src} /> */}
+        <Image  src={
+                            require(`src/assets/images/${imag}`).default.src
+                          }  className="imagestyle"/>
         <span className="pricing-one__month">{name}</span>
 
         <ul className="pricing-one__list">
-          {features.map((feature, i) => (
-            <li key={i} className="pricing-one__list-item">
-              {feature}
-            </li>
-          ))}
+          
+            <p className="pricing-one__list-item">
+              {features}
+            </p>
+        
         </ul>
         {/* <a href="#" className="thm-btn pricing-one__btn">
           Choose Plan

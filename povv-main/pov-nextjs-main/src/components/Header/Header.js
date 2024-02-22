@@ -48,7 +48,7 @@ const Header = () => {
           </div>
           <div className="right-side-box">
             <a href="#" className="thm-btn header-one__btn">
-              Contact
+              Schedule a meet
             </a>
           </div>
         </div>

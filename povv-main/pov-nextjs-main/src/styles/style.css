@@ -2139,6 +2139,20 @@ a:visited {
 /*
 * 13. pricing styles
 */
+.imagestyle{
+  
+  display: block;
+  margin: 0px auto 30px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-image: initial;
+  transition: all 0.3s ease 0s;
+height: 210px;
+width: 210px;
+
+}
 .pricing-one {
   margin-bottom: -520px;
   position: relative;
