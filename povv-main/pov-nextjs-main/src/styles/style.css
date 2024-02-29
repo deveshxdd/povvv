@@ -24,6 +24,9 @@
 /*
 * 2. common styles
 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   font-family: "spartan_mbsemibold";
   font-size: 16px;
