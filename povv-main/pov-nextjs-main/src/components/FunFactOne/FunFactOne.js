@@ -1,12 +1,16 @@
 import funFactOne from "@/data/funFactOne";
-import React from "react";
+import React , { useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 import VisibilityCountUp from "../Reuseable/VisibilityCountUp";
+import ReactPlayer from 'react-player';
 
-const { title, funFacts } = funFactOne;
+
+const VIDEO_PATH = 'https://youtu.be/0BIaDVnYp2A';
+const { title, funFacts , video } = funFactOne;
 
 const FunFactOne = () => {
+  const playerRef = useRef(null);
   return (
     <section className="funfact-one">
       <Container>
@@ -30,9 +34,35 @@ const FunFactOne = () => {
                   <p className="funfact-one__tag-line">{tagline}</p>
                 </div>
               </div>
+              
             </Col>
+            
           ))}
+        <h1 className="videoo">Past Compaigns</h1>
+        <video loop autoPlay muted width="620" height="540">
+      <source src="/vid2.mp4" type="video/mp4" />
+      {/* <track
+        src="/path/to/captions.vtt"
+        kind="subtitles"
+        srcLang="en"
+        label="English"
+      /> */}
+      Your browser does not support the video tag.
+    </video>
+    <br></br>
+        <h1 className="videoo">Behind The Scene</h1>
+        <video loop autoPlay muted width="620" height="540" >
+      <source src="/video1.mp4" type="video/mp4" />
+      {/* <track
+        src="/path/to/captions.vtt"
+        kind="subtitles"
+        srcLang="en"
+        label="English"
+      /> */}
+      Your browser does not support the video tag.
+    </video>
         </Row>
+        
       </Container>
     </section>
   );

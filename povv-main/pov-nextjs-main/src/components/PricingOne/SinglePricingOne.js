@@ -5,7 +5,7 @@ import { Col,Image } from "react-bootstrap";
 import useActive from "@/hooks/useActive";
 
 const SinglePricingOne = ({ singlePricing = {} }) => {
-  const { isPopular, imag, name, features, tagline } = singlePricing;
+  const { isPopular, imag, name, features, tagline , link } = singlePricing;
 
   return (
     <Col lg={4}>
@@ -23,9 +23,9 @@ const SinglePricingOne = ({ singlePricing = {} }) => {
             </p>
         
         </ul>
-        {/* <a href="#" className="thm-btn pricing-one__btn">
-          Choose Plan
-        </a> */}
+        <a href={link} className="thm-btn pricing-one__btn">
+          Contact
+        </a>
         <span className="pricing-one__tag-line">{tagline}</span>
       </div>
     </Col>

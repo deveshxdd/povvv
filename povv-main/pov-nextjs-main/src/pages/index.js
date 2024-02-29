@@ -28,7 +28,9 @@ const Home = () => {
       <FunFactOne />
       <BlogOne totalBlogs={2} isScrollActive />
       <CtaOne isScrollActive />
+     
     </Layout>
+    
   );
 };
 

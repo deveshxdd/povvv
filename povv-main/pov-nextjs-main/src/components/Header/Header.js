@@ -5,8 +5,9 @@ import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
 import NavItem from "./NavItem";
-
+import { PopupButton } from "react-calendly";
 const { logo, navData } = headerData;
+import Calendly from "../Calendly";
 
 const Header = () => {
   const { scrollTop } = useScroll(100);
@@ -47,9 +48,20 @@ const Header = () => {
             </ul>
           </div>
           <div className="right-side-box">
-            <a href="#" className="thm-btn header-one__btn">
-              Schedule a meet
-            </a>
+           
+               <div className="App">
+      {/* <PopupButton
+        url="https://calendly.com/udevesh721/meet" className="thm-btn header-one__btn"
+      
+        rootElement={document ? document.getElementById("root") : " "}
+        text="Click here to schedule!"
+      /> */}
+        {/* <div className="container">
+      <h1>Schedule an Appointment</h1>
+      <Calendly url="https://calendly.com/olivemonk/interview" />
+    </div>
+     */}
+    </div>
           </div>
         </div>
       </nav>

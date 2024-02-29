@@ -1,5 +1,5 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+import { Col,Image } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
 const ServiceOneSingle = ({ service = {} }) => {
@@ -13,7 +13,13 @@ const ServiceOneSingle = ({ service = {} }) => {
        
         <span className="service-one__dot-3"></span>
         <div className="service-one__icon">
-          <i className={icon}></i>
+          {/* <i className={icon}></i> */}
+          <Image className="icons"
+                          src={ 
+                            require(`src/assets/images/${icon}`).default.src
+                          }
+                          
+                        />
         </div>
         <h3 className="service-one__title">
           <a href="#">
