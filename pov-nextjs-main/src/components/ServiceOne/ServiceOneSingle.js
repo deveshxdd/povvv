@@ -1,25 +1,24 @@
 import React from "react";
-import { Col,Image } from "react-bootstrap";
+import { Col, Image } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
 const ServiceOneSingle = ({ service = {} }) => {
-  const { icon, title, text , text2 } = service;
+  const { icon, title, text, text2 } = service;
 
   return (
     <Col lg={4}>
       <div className="service-one__single">
         <span className="service-one__dot-1"></span>
         <span className="service-one__dot-2"></span>
-       
+
         <span className="service-one__dot-3"></span>
         <div className="service-one__icon">
           {/* <i className={icon}></i> */}
-          <Image className="icons"
-                          src={ 
-                            require(`src/assets/images/${icon}`).default.src
-                          }
-                          
-                        />
+          <Image
+            className="icons"
+            src={require(`src/assets/images/${icon}`).default.src}
+            alt="image"
+          />
         </div>
         <h3 className="service-one__title">
           <a href="#">
@@ -29,7 +28,7 @@ const ServiceOneSingle = ({ service = {} }) => {
         <p className="service-one__text">
           <TextSplit text={text} />
         </p>
-        
+
         <a href="#" className="service-one__btn">
           {text2}
         </a>
