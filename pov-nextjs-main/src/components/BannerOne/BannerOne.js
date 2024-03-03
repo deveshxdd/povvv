@@ -17,7 +17,7 @@ const BannerOne = () => {
       {images.map(({ id, image, className }) => (
         <Image
           key={id}
-          src={require(`/assets/images/${image}`).default.src}
+          src={require(`../../../public/assets/images/${image}`).default.src}
           className={className}
           alt="Awesome Image"
         />

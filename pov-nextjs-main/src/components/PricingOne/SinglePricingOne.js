@@ -11,7 +11,7 @@ const SinglePricingOne = ({ singlePricing = {} }) => {
       <div className={`pricing-one__single${isPopular ? " popular" : ""}`}>
         {/* <h3 className="pricing-one__amount">{image}</h3> */}
         <Image
-          src={require(`/assets/images/${imag}`).default.src}
+          src={require(`../../../public/assets/images/${imag}`).default.src}
           className="imagestyle"
           alt="image"
         />

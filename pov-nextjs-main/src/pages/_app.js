@@ -1,8 +1,8 @@
 import ContextProvider from "@/context/ContextProvider";
-import "@/vendors/animate.css";
-import "@/vendors/font-awesome.min.css";
-import "@/vendors/lums-icon/style.css";
-import "@/fonts/spartan-mb/stylesheet.css";
+import "../../public/assets/vendors/animate.css";
+import "../../public/assets/vendors/font-awesome.min.css";
+import "../../public/assets/vendors/lums-icon/style.css";
+import "../../public/assets/fonts/spartan-mb/stylesheet.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import "react-circular-progressbar/dist/styles.css";
 // import "react-modal-video/css/modal-video.min.css";

@@ -1,9 +1,9 @@
-import image1 from "@/images/img1.png";
-import image2 from "@/images/img2.png";
-import image3 from "@/images/img3.png";
-import image4 from "@/images/img4.png";
-import image5 from "@/images/img5.png";
-import image6 from "@/images/img6.png";
+import image1 from "../../public/assets/images/img1.png";
+import image2 from "../../public/assets/images/img2.png";
+import image3 from "../../public/assets/images/img3.png";
+import image4 from "../../public/assets/images/img4.png";
+import image5 from "../../public/assets/images/img5.png";
+import image6 from "../../public/assets/images/img6.png";
 
 
 const brandOne = [

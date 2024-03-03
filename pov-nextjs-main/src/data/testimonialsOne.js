@@ -1,4 +1,4 @@
-import qoute from "@/images/testi-qoute-1-1.png";
+import qoute from "../../public/assets/images/testi-qoute-1-1.png";
 
 const testimonialsOne = {
   title: "What our clients \n are saying",

@@ -16,7 +16,7 @@ const ServiceOneSingle = ({ service = {} }) => {
           {/* <i className={icon}></i> */}
           <Image
             className="icons"
-            src={require(`/assets/images/${icon}`).default.src}
+            src={require(`../../../public/assets/images/${icon}`).default.src}
             alt="image"
           />
         </div>
