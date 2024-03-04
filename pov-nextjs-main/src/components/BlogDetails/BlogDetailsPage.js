@@ -8,6 +8,7 @@ import CommentForm from "./CommentForm";
 import CommentOne from "./CommentOne";
 import ShareBlock from "./ShareBlock";
 
+
 const { blog, tags, share, posts, categories } = blogDetailsPage;
 const { author, comments } = blog;
 

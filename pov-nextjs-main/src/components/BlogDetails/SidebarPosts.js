@@ -11,7 +11,7 @@ const SidebarPosts = ({ posts = [] }) => {
             <div className="sidebar__post-image">
               <div className="inner-block">
                 <Image
-                  src={require(`/assets/images/${image}`).default.src}
+                  src={require(`../../../public/assets/images/${image}`).default.src}
                   alt="Awesome Image"
                 />
               </div>
