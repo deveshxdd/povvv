@@ -3,7 +3,7 @@ const blogOne = {
   blogs: [
     {
       id: 1,
-      title: "How agency works 15 ways to earn money - POV",
+      title: "Bhautiki Plus: Spinning Their Way to Social Media Domination (And How You Can Too!)",
       image: "blog-1-1.jpg",
       admin: "admin",
       date: "20 Feb 2024",
@@ -11,7 +11,7 @@ const blogOne = {
     },
     {
       id: 2,
-      title: "How to edit Videos by pov Point of view",
+      title: "Garg Classes Shifts Gears with Viral Video (3.5M+ Views!)",
       image: "blog-1-2.jpg",
       admin: "admin",
       date: "20 Feb 2024",
