@@ -6,45 +6,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 SwiperCore.use([Autoplay]);
 
-const options = {
-  loop: true,
-  autoplay: {
-    delay: 100
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 2,
-      spaceBetween: 0
-    },
-    480: {
-      slidesPerView: 3,
-      spaceBetween: 30
-    },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 30
-    },
-    991: {
-      slidesPerView: 4,
-      spaceBetween: 30
-    },
-    1000: {
-      slidesPerView: 5,
-      spaceBetween: 30
-    },
-    1200: {
-      slidesPerView: 5,
-      spaceBetween: 30
-    }
-  }
-};
+
 
 const BrandOne = () => {
   return (
     <section className="brand-one">
       
       <Container>
-        <Swiper {...options} >
+        <Swiper modules={[Autoplay]} loop={true} autoplay={{delay:0}} slidesPerView={4} speed={1000} className="sampleslider">
           {brandOne.map((image, i) => (
             <SwiperSlide key={i}>
               

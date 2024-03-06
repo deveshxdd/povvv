@@ -13,6 +13,8 @@ import Layout from "@/components/Layout/Layout";
 import PricingOne from "@/components/PricingOne/PricingOne";
 import ServiceOne from "@/components/ServiceOne/ServiceOne";
 import TestimonialsOne from "@/components/TestimonialsOne/TestimonialsOne";
+
+
 import React from "react";
 
 const Home = () => {
@@ -20,6 +22,7 @@ const Home = () => {
     <Layout pageTitle="Home One">
       <BannerOne />
       <ServiceOne />
+
       <CtaThree />
       <CtaTwo />
       <PricingOne />

@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Image } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
-
+import Link from "next/link";
 const ServiceOneSingle = ({ service = {} }) => {
   const { icon, title, text, text2 } = service;
 
@@ -28,10 +28,12 @@ const ServiceOneSingle = ({ service = {} }) => {
         <p className="service-one__text">
           <TextSplit text={text} />
         </p>
-
-        <a href="#" className="service-one__btn">
+        <Link href="/ServicesDetail">
+        <a className="service-one__btn">
           {text2}
         </a>
+            </Link>
+        
       </div>
     </Col>
   );

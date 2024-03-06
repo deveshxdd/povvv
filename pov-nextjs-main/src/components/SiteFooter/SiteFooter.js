@@ -2,7 +2,6 @@ import footerData from "@/data/siteFooter";
 import Link from "next/link";
 import React from "react";
 import { Container, Image } from "react-bootstrap";
-
 const { logo, author, year, links, socials } = footerData;
 
 const SiteFooter = () => {
