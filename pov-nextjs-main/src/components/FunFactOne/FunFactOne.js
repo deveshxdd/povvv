@@ -38,9 +38,10 @@ const FunFactOne = () => {
             </Col>
             
           ))}
+         
         <h1 className="videoo">Past Compaigns</h1>
-        <video loop autoPlay muted width="620" height="540">
-      <source src="/vid2.mp4" type="video/mp4" />
+        <video loop autoPlay muted width="920" height="840">
+      <source src="/videooo.mp4" type="video/mp4" />
       {/* <track
         src="/path/to/captions.vtt"
         kind="subtitles"
@@ -49,10 +50,11 @@ const FunFactOne = () => {
       /> */}
       Your browser does not support the video tag.
     </video>
-    <br></br>
+   
+  
         <h1 className="videoo">Behind The Scene</h1>
-        <video loop autoPlay muted width="620" height="540" >
-      <source src="/video1.mp4" type="video/mp4" />
+        <video loop autoPlay muted width="920" height="840" >
+      <source src="/bts.mp4" type="video/mp4" />
       {/* <track
         src="/path/to/captions.vtt"
         kind="subtitles"
@@ -61,6 +63,7 @@ const FunFactOne = () => {
       /> */}
       Your browser does not support the video tag.
     </video>
+   
         </Row>
         
       </Container>

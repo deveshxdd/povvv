@@ -13,6 +13,7 @@ import Layout from "@/components/Layout/Layout";
 import PricingOne from "@/components/PricingOne/PricingOne";
 import ServiceOne from "@/components/ServiceOne/ServiceOne";
 import TestimonialsOne from "@/components/TestimonialsOne/TestimonialsOne";
+import Appacc from "@/components/Accordian/Appacc"
 
 
 import React from "react";
@@ -30,6 +31,7 @@ const Home = () => {
       <BrandOneWithNoSSR />
       <FunFactOne />
       <BlogOne totalBlogs={2} isScrollActive />
+      <Appacc />
       <CtaOne isScrollActive />
      
     </Layout>
