@@ -40,7 +40,7 @@ const FunFactOne = () => {
           ))}
          
         <h1 className="videoo">Past Compaigns</h1>
-        <video loop autoPlay muted width="920" height="840">
+        <video loop autoPlay muted width="620" height="540">
       <source src="/videooo.mp4" type="video/mp4" />
       {/* <track
         src="/path/to/captions.vtt"
@@ -53,7 +53,7 @@ const FunFactOne = () => {
    
   
         <h1 className="videoo">Behind The Scene</h1>
-        <video loop autoPlay muted width="920" height="840" >
+        <video loop autoPlay muted width="620" height="540" >
       <source src="/bts.mp4" type="video/mp4" />
       {/* <track
         src="/path/to/captions.vtt"

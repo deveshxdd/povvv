@@ -13,9 +13,7 @@ import Layout from "@/components/Layout/Layout";
 import PricingOne from "@/components/PricingOne/PricingOne";
 import ServiceOne from "@/components/ServiceOne/ServiceOne";
 import TestimonialsOne from "@/components/TestimonialsOne/TestimonialsOne";
-
-
-
+import Faqq from "@/components/Faq/Faqq";
 import React from "react";
 
 const Home = () => {
@@ -31,9 +29,10 @@ const Home = () => {
       <BrandOneWithNoSSR />
       <FunFactOne />
       <BlogOne totalBlogs={2} isScrollActive />
+      
       <CtaOne isScrollActive />
-     
     </Layout>
+    
     
   );
 };
