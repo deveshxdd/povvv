@@ -8,7 +8,7 @@ const Faqq = () => {
     return (
         <>
             <section className="faqq">
-                <h1 className="faqh">Frequently Asked questions</h1>
+              
         {
                 data.map((curElem) => {
                     return <Myfaq key={curElem.id} {...curElem} />
