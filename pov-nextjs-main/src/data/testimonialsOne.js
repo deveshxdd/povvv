@@ -78,7 +78,7 @@ const testimonialsOne = {
     },
     {
       id: 11,
-      image: "Stockswala.png",
+      image: "GwaliorFoodsters.png",
       qoute,
       text: "The Performance marketing results which POV brought were extremely beneficial.",
       name: "Abhishek bhadoriya",

@@ -20,7 +20,7 @@ const headerData = {
     },
     {
       id: 4,
-      href: "#pricing",
+      href: "/Aboutus",
       name: "About us",
     },
     {

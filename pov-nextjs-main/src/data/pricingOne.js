@@ -1,6 +1,6 @@
 
 const pricingOne = {
-  title: "ABOUT US",
+  title: "Our Founders",
   pricing: [
     {
       id: 1,

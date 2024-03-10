@@ -31,7 +31,7 @@ const serviceOne = {
     },
     {
       id: 3,
-      icon: "graphicdes.png",
+      icon: "webdev.png",
       title: "Web Development",
       text: "Innovative Ideation Expertise \n Seamless Content Execution \n Timely Social Media Presence. \n ",
       text2: "Upcoming"

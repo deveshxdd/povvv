@@ -12,12 +12,12 @@ const ServiceDetail = () => {
         <Row>
           <Col lg={6}>
             <div className="cta-three__image">
-              <Image src="../../../public/assets/images/Awapnil.png" alt="Awesome Image" />
+              <Image src="/assets/images/perfmar.png" alt="Awesome Image"  className="servdet"/>
             </div>
           </Col>
           <Col lg={6}>
             <div className="cta-three__content">
-              <div className="block-title text-left">
+              <div className="block-title text-left py-3 px-3">
                 <h2 className="block-title__title black-text-color">
                   <TextSplit text="Performance Marketing" />
                 </h2>
@@ -37,18 +37,19 @@ charts/graphs to highlight performance metrics.)</p>
           </Col>
         </Row>
       </Container>
+       <br></br>
       <Container>
         <Row>
           <Col lg={6}>
             <div className="cta-three__image">
-              <Image src="../../../public/assets/images/Awapnil.png" alt="Awesome Image" />
+              <Image src="/assets/images/socmedman.png" alt="Awesome Image" className="servdet" />
             </div>
           </Col>
           <Col lg={6}>
             <div className="cta-three__content">
-              <div className="block-title text-left">
+              <div className="block-title text-left py-3 px-3">
                 <h2 className="block-title__title black-text-color">
-                  <TextSplit text="Social Media Management:" />
+                  <TextSplit text="Social Media Management" />
                 </h2>
               </div>
               <p className="cta-three__text">With our social media management services, we take charge of our clients’ social media
@@ -65,16 +66,17 @@ engagement metrics.)</p>
           </Col>
         </Row>
       </Container>
+      <br></br>
       <Container>
         <Row>
           <Col lg={6}>
             <div className="cta-three__image">
-              <Image src="../../../public/assets/images/Awapnil.png" alt="Awesome Image" />
+              <Image src="/assets/images/contmar.png" alt="Awesome Image"  className="servdet" />
             </div>
           </Col>
           <Col lg={6}>
             <div className="cta-three__content">
-              <div className="block-title text-left">
+              <div className="block-title text-left py-3 px-3">
                 <h2 className="block-title__title black-text-color">
                   <TextSplit text="Content Marketing" />
                 </h2>
@@ -92,18 +94,19 @@ note: Include video and interactive elements to showcase the content creation pr
           </Col>
         </Row>
       </Container>
+      <br></br>
       <Container>
         <Row>
           <Col lg={6}>
             <div className="cta-three__image">
-              <Image src="../../../public/assets/images/Awapnil.png" alt="Awesome Image" />
+              <Image src="/assets/images/publrel.png" alt="Awesome Image"  className="servdet" />
             </div>
           </Col>
           <Col lg={6}>
             <div className="cta-three__content">
-              <div className="block-title text-left">
+              <div className="block-title text-left py-3 px-3">
                 <h2 className="block-title__title black-text-color">
-                  <TextSplit text="Public Relations (PR):" />
+                  <TextSplit text="Public Relations (PR)" />
                 </h2>
               </div>
               <p className="cta-three__text">Our PR services guarantee a reach of 100 million+ on Instagram within the shortest

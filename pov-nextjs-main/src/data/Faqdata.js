@@ -1,23 +1,22 @@
 export const questions = [
     {
         id: 1,
-        question: 'What is the virtual DOM?',
-        answer:'DOM stands for Document Object Model. The DOM represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, and each node contains objects.'
-    },
+        question: 'How can I get started with POV Producktions marketing services?',
+        answer:'Reach out through our contact page or schedule a meeting to discuss your project needs.'},
     {
         id: 2,
-        question: 'How do you create a React app?',
-        answer:'Install the create-react-app package using the command prompt or terminal.'
+        question: 'Can you handle projects of any size?',
+        answer:'Yes we are equipped to handle projects of all sizes, from small-scale to large-scale initiatives.'
     },
     {
         id: 3,
-        question: 'What is an event in React?',
-        answer:'An event is an action that a user or system may trigger, such as pressing a key, a mouse click, etc.'
+        question: 'How experienced is your team?',
+        answer:'Our team brings extensive expertise in content marketing, performance marketing, social media management, and public relations to every project.'
     },
     {
         id: 4,
-        question: ' What are synthetic events in React?',
-        answer:"Synthetic events combine the response of different browser's native events into one API, ensuring that the events are consistent across different browsers."
+        question: ' How does POV Producktion measure success in content marketing campaigns?',
+        answer:"Over 75 million views for clients, showcasing effective organic reach and engagement strategies."
     },
  
 ]

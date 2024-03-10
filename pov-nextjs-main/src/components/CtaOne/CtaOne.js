@@ -13,7 +13,7 @@ const CtaOne = ({ isScrollActive = false }) => {
     <div className="container">
       <div className="row">
         <div className="col-md-6">
-          <div className="card">
+          <div >
             <div>
             <h2 className="faqh">FAQ</h2>
               <Faqq />
@@ -21,7 +21,7 @@ const CtaOne = ({ isScrollActive = false }) => {
           </div>
         </div>
         <div className="col-md-6">
-          <div className="card">
+          <div >
             <div className="card-body">
               <h2 className="card-title faqh">Contact Us</h2>
               <form className="reply-form">
