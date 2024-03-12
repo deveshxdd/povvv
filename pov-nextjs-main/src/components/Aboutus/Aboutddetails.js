@@ -137,6 +137,8 @@ const Aboutddetails = () => {
           Contact
         </a>
         <span className="pricing-one__tag-line">Marketing</span> */}
+
+        
       </div>
     </Col>
         <Col lg={4}>
