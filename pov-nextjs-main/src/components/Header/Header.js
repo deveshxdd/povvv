@@ -65,6 +65,14 @@ const Header = () => {
       <Calendly url="https://calendly.com/olivemonk/interview" />
     </div>
      */}
+       <a
+        href="https://wa.me/9039819078"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
     </div>
           </div>
         </div>
