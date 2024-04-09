@@ -31,12 +31,12 @@ const headerData = {
         {
           id: 1,
           href: "/blog",
-          name: "Blog Style 01",
+          name: "Blogs",
         },
         {
           id: 2,
           href: "/blog-details",
-          name: "Blog Details",
+          name: "Blog Detailed",
         },
       ],
     },
