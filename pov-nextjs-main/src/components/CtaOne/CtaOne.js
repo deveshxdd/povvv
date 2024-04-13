@@ -1,12 +1,30 @@
 import ctaOne from "@/data/ctaOne";
 import useActive from "@/hooks/useActive";
-import React from "react";
+import React , { useRef } from "react";
 import TextSplit from "../Reuseable/TextSplit";
 import { Col, Row } from "react-bootstrap";
 const { title } = ctaOne;
+import emailjs from '@emailjs/browser';
 import Faqq from "../Faq/Faqq";
 const CtaOne = ({ isScrollActive = false }) => {
   const ref = useActive("#contact", isScrollActive);
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_vevdqgf', 'template_bkzoq2u', form.current, {
+        publicKey: 'CI3v3JTLHKAgc8W80',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+    }
 
   return (
     <section ref={ref} className="cta-one faq-section" id="contact">
@@ -24,7 +42,7 @@ const CtaOne = ({ isScrollActive = false }) => {
           <div >
             <div className="card-body">
               <h2 className="card-title faqh">Contact Us</h2>
-              <form className="reply-form">
+              <form className="reply-form" ref={form} onSubmit={sendEmail}>
                 <div className="row">
                   <div className="col-lg-6">
                     <input
