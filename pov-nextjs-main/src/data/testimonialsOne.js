@@ -13,7 +13,7 @@ const testimonialsOne = {
     },
     {
       id: 2, 
-      image: "GwaliorFoodsters.png",
+      image: "royaljeep.png",
       qoute,
       text: "Their production quality is extremely high.",
       name: "Rishab Samadhiya",
@@ -46,7 +46,7 @@ const testimonialsOne = {
     },
     {
       id: 7,
-      image: "Bhautiki+.png",
+      image: "mahindra.png",
       qoute,
       text: "The ads which they create are highly appreciable.",
       name: "Rishab Samadhiya",
