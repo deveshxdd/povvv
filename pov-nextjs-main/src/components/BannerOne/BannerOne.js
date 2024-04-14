@@ -32,7 +32,7 @@ const BannerOne = () => {
               <h3 className="banner-one__title">
                 <TextSplit text={title} />
               </h3>
-              <a href="#" className="banner-one__btn thm-btn">
+              <a href="/ServicesDetail" className="banner-one__btn thm-btn">
                 Learn More
               </a>
             </div>

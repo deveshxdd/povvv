@@ -1,4 +1,4 @@
-import logo from "../../public/assets/images/logo-light.png";
+import logo from "../../public/assets/images/logo-lightff.png";
 
 const footerData = {
   logo,
