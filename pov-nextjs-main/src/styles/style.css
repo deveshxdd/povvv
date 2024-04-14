@@ -36,7 +36,7 @@
 
 }
 .faqh{
-  color: #252758;
+  color: #331c2b;
 
   margin: 0;
     margin-top: 5px;
@@ -136,7 +136,7 @@ a:visited {
 }
 
 .black-text-color {
-  color: #252758;
+  color: #331C2B;
 }
 
 .icon-revresed {
@@ -163,7 +163,7 @@ a:visited {
   display: inline-block;
   vertical-align: middle;
   background-color: #EDE0D0;
-  color: #252758;
+  color: #331c2b;
   font-size: 14px;
   font-family: "spartan_mbbold";
   -webkit-transition: all 0.4s ease;
@@ -217,7 +217,7 @@ a:visited {
   font-size: 16px;
   font-weight: 500;
   padding: 9px 20px;
-  color: #252758;
+  color: #331c2b;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -429,7 +429,7 @@ a:visited {
   transition: all 0.4s ease;
 }
 .header-navigation ul.navigation-box > li > .sub-menu > li:hover > a {
-  color: #252758;
+  color: #331c2b;
   background: #f7c324;
 }
 .header-navigation ul.navigation-box > li:hover:before {
@@ -501,7 +501,7 @@ a:visited {
   transition: all 0.4s ease;
 }
 .header-navigation ul.navigation-box > li > ul > li > .sub-menu > li:hover > a {
-  color: #252758;
+  color: #331c2b;
   background: #f7c324;
 }
 .header-navigation ul.navigation-box > li > ul > li:hover > .sub-menu {
@@ -522,7 +522,7 @@ a:visited {
 }
 .header-one__btn {
   background-color: #fff;
-  color: #252758;
+  color: #331c2b;
   padding: 3.5px 29.5px;
   border-radius: 20.5px;
   font-size: 12px;
@@ -646,7 +646,7 @@ a:visited {
 .banner-one__tag-line a {
   display: inline-block;
   background-color: #EDE0D0;
-  color: #252758;
+  color: #331c2b;
   line-height: 32px;
   padding: 0 20px;
   margin-left: 10px;
@@ -953,18 +953,19 @@ a:visited {
   margin-right: 10px;
 }
 .blog-one__meta-link:hover {
-  color: #252758;
+  color: #331c2b;
 }
 .blog-one__title {
   margin: 0;
   font-size: 24px;
   line-height: 40px;
-  color: #252758;
+  color: #331c2b;
 }
 .blog-one__title a {
   color: inherit;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  color: #331C2B;
 }
 .blog-one__title a:hover {
   color: #331c2b;
@@ -1036,7 +1037,7 @@ a:visited {
 }
 .blog-details__content-title {
   margin: 0;
-  color: #252758;
+  color: #331c2b;
   font-size: 24px;
   font-family: "spartan_mbextrabold";
   margin-bottom: 40px;
@@ -1057,7 +1058,7 @@ a:visited {
 }
 .blog-details .share-block .left-block p {
   margin: 0;
-  color: #252758;
+  color: #331c2b;
   font-size: 22px;
   font-family: "spartan_mbbold";
 }
@@ -1116,7 +1117,7 @@ a:visited {
   margin: 0;
 }
 .blog-details__author-content h3 {
-  color: #252758;
+  color: #331c2b;
   font-size: 20px;
   margin-bottom: 20px;
   font-family: "spartan_mbbold";
@@ -1160,7 +1161,7 @@ a:visited {
   margin: 0;
   font-size: 20px;
   font-family: "spartan_mbbold";
-  color: #252758;
+  color: #331c2b;
 }
 .comment-one__date {
   color: #a461e5;
@@ -1188,7 +1189,7 @@ a:visited {
   border-radius: 22px;
   background-color: #f7c324;
   text-align: center;
-  color: #252758;
+  color: #331c2b;
   font-family: "spartan_mbbold";
   font-size: 12px;
   padding: 5px 30px;
@@ -1297,7 +1298,7 @@ a:visited {
 }
 .cta-two__title {
   margin: 0;
-  color: #252758;
+  color: #331c2b;
   font-size: 18px;
   font-family: "spartan_mbbold";
   letter-spacing: -0.02em;
@@ -1529,7 +1530,7 @@ a:visited {
   transition: all 0.4s ease;
 }
 .site-footer__copytext a:hover {
-  color: #252758;
+  color: #331c2b;
 }
 .site-footer__social {
   display: -webkit-box;
@@ -1560,7 +1561,7 @@ a:visited {
 .footer-widget__title {
   margin: 0;
   font-family: "spartan_mbbold";
-  color: #252758;
+  color: #331c2b;
   font-size: 16px;
   margin-bottom: 40px;
 }
@@ -1634,7 +1635,7 @@ a:visited {
   color: #a461e5;
 }
 .footer-widget__subscribe-form button[type="submit"]:hover i {
-  color: #252758;
+  color: #331c2b;
 }
 
 /*
@@ -1722,7 +1723,7 @@ a:visited {
 }
 .sidebar__title {
   margin: 0;
-  color: #252758;
+  color: #331c2b;
   font-size: 20px;
   font-family: "spartan_mbbold";
   margin-bottom: 30px;
@@ -1782,7 +1783,7 @@ a:visited {
   transition: all 0.4s ease;
 }
 .sidebar__post-title a:hover {
-  color: #252758;
+  color: #331c2b;
 }
 .sidebar__category-list {
   margin: 0;
@@ -1900,7 +1901,7 @@ a:visited {
 }
 .sidebar__search-form button[type="submit"] i {
   font-size: 14px;
-  color: #252758;
+  color: #331c2b;
   line-height: 41px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -1909,7 +1910,7 @@ a:visited {
   background-color: #fff;
 }
 .sidebar__search-form button[type="submit"]:hover i {
-  color: #252758;
+  color: #331c2b;
 }
 
 /*
@@ -1987,7 +1988,7 @@ a:visited {
 }
 .funfact-one__title {
   margin: 0;
-  color: #252758;
+  color: #331c2b;
   font-size: 34px;
   letter-spacing: -0.04em;
   line-height: 1em;
@@ -2290,7 +2291,7 @@ width: 210px;
 .pricing-one__single.popular .pricing-one__btn {
   background-color: #EDE0D0;
   /* border-color: #331C2B; */
-  color: #252758;
+  color: #331c2b;
 }
 .pricing-one__amount {
   margin: 0;
@@ -2302,7 +2303,7 @@ width: 210px;
 .pricing-one__month {
   display: inline-block;
   vertical-align: middle;
-  color: #252758;
+  color: #331c2b;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-family: "spartan_mbbold";
@@ -2356,18 +2357,18 @@ width: 210px;
 .pricing-one__btn:hover {
   background-color: #EDE0D0;
   border-color: #331C2B;
-  color: #252758;
+  color: #331c2b;
 }
 .pricing-one__tag-line {
   text-transform: uppercase;
   font-size: 10px;
   letter-spacing: 0.2em;
   font-family: "spartan_mbbold";
-  color: #a461e5;
+  color: #331c2b;
   display: block;
 }
 .videoo{
-  color: #252758;
+  color: #331c2b;
   font-size: 30px;
   /* font-size: calc(1.325rem + .9vw); */
   font-family: "spartan_mbextrabold";
@@ -2384,9 +2385,9 @@ width: 210px;
   align-items: center;
 }
 .servicesdetails{
-  color: #252758;
+  color: #331c2b;
   margin: 0;
-    color: #252758;
+    color: #331c2b;
     font-size: 20px;
     line-height: 34px;
     letter-spacing: -0.02em;
@@ -2512,7 +2513,7 @@ width: 210px;
 }
 .service-one__title {
   margin: 0;
-  color: #252758;
+  color: #331c2b;
   font-size: 20px;
   line-height: 34px;
   letter-spacing: -0.02em;
@@ -2539,7 +2540,7 @@ width: 210px;
   border-top: 1px solid #eff0f7;
   font-size: 12px;
   font-family: "spartan_mbbold";
-  color: #252758;
+  color: #331c2b;
   width: 100%;
   position: relative;
   padding: 17px 0;
@@ -2567,7 +2568,7 @@ width: 210px;
   transition: transform 0.4s ease, -webkit-transform 0.4s ease;
 }
 .service-one__btn:hover {
-  color: #252758;
+  color: #331c2b;
   background-color: #EDE0D0;
 }
 .service-one__btn:hover:before {
