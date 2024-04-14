@@ -1,6 +1,6 @@
 import ctaOne from "@/data/ctaOne";
 import useActive from "@/hooks/useActive";
-import React , { useRef } from "react";
+import React , { useRef , useState } from "react";
 import TextSplit from "../Reuseable/TextSplit";
 import { Col, Row } from "react-bootstrap";
 const { title } = ctaOne;
@@ -9,6 +9,7 @@ import Faqq from "../Faq/Faqq";
 const CtaOne = ({ isScrollActive = false }) => {
   const ref = useActive("#contact", isScrollActive);
   const formRef = useRef();
+  const [submitted, setSubmitted] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,14 +21,15 @@ const CtaOne = ({ isScrollActive = false }) => {
       .then(
         () => {
           console.log('SUCCESS!');
-          // Reset form fields after successful submission
-          formRef.current.reset();
+          setSubmitted(true); // Set submitted to true after successful submission
+          formRef.current.reset(); // Reset form fields after successful submission
         },
         (error) => {
           console.log('FAILED...', error.text);
         },
       );
   }
+
 
   return (
     <section ref={ref} className="cta-one faq-section" id="contact">
