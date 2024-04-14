@@ -8,23 +8,26 @@ import emailjs from '@emailjs/browser';
 import Faqq from "../Faq/Faqq";
 const CtaOne = ({ isScrollActive = false }) => {
   const ref = useActive("#contact", isScrollActive);
-  const form = useRef();
+  const formRef = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_vevdqgf', 'template_bkzoq2u', form.current, {
+      .sendForm('service_vevdqgf', 'template_bkzoq2u', formRef.current, {
         publicKey: 'CI3v3JTLHKAgc8W80',
       })
       .then(
         () => {
           console.log('SUCCESS!');
+          // Reset form fields after successful submission
+          formRef.current.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);
         },
       );
-    }
+  }
 
   return (
     <section ref={ref} className="cta-one faq-section" id="contact">
@@ -42,7 +45,7 @@ const CtaOne = ({ isScrollActive = false }) => {
           <div >
             <div className="card-body">
               <h2 className="card-title faqh">Contact Us</h2>
-              <form className="reply-form" ref={form} onSubmit={sendEmail}>
+              <form className="reply-form" ref={formRef} onSubmit={sendEmail}>
                 <div className="row">
                   <div className="col-lg-6">
                     <input
