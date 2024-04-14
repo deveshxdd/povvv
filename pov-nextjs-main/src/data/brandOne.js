@@ -8,6 +8,9 @@ import image7 from "../../public/assets/images/new1.png";
 import image8 from "../../public/assets/images/new2.png";
 import image9 from "../../public/assets/images/new3.png";
 import image10 from "../../public/assets/images/new4.png";
+import image11 from "../../public/assets/images/BOMIS.jpg";
+import image12 from "../../public/assets/images/img11.png";
+import image13 from "../../public/assets/images/img12.png";
 
 
 const brandOne = [
@@ -20,7 +23,10 @@ const brandOne = [
   image5,
   image4,
   image9,
-  image10
+  image10,
+  image11,
+  image12,
+  image13
 ];
 
 export default brandOne;
