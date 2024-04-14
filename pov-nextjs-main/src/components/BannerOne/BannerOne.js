@@ -3,6 +3,7 @@ import useActive from "@/hooks/useActive";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
+import Link from "next/link";
 
 const { images, tagline, title } = bannerOne;
 
@@ -32,9 +33,12 @@ const BannerOne = () => {
               <h3 className="banner-one__title">
                 <TextSplit text={title} />
               </h3>
-              <a href="/ServicesDetail" className="banner-one__btn thm-btn">
+             
+              <Link href="/ServicesDetail">
+              <a href="" className="banner-one__btn thm-btn">
                 Learn More
               </a>
+            </Link>
             </div>
           </Col>
         </Row>
