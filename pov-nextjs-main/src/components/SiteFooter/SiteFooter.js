@@ -1,15 +1,33 @@
 import footerData from "@/data/siteFooter";
 import Link from "next/link";
-import React from "react";
+import useActive from "@/hooks/useActive";
+import React , { useRef , useState } from "react";
 import { Container, Image } from "react-bootstrap";
 const { logo, author, year, links, socials } = footerData;
+import emailjs from '@emailjs/browser';
 
 const SiteFooter = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const formData = new FormData();
-    console.log(formData.get("email"));
-  };
+  const ref = useActive("#contact");
+    const formRef = useRef();
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_vevdqgf', 'template_bkzoq2u', formRef.current, {
+          publicKey: 'CI3v3JTLHKAgc8W80',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+            setSubmitted(true); // Set submitted to true after successful submission
+            formRef.current.reset(); // Reset form fields after successful submission
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    
+  }
 
   return (
     <footer className="site-footer">
@@ -61,9 +79,9 @@ const SiteFooter = () => {
             </div>
             <div className="footer-widget footer-widget__subscribe">
               <h3 className="footer-widget__title">Subscribe</h3>
-              <form
-                onSubmit={handleSubmit}
-                className="footer-widget__subscribe-form"
+              <form 
+                onSubmit={sendEmail}
+                className="footer-widget__subscribe-form" ref={formRef} 
               >
                 <input
                   type="email"
