@@ -1,13 +1,13 @@
+import React from "react";
+import { Image } from "react-bootstrap";
+import Link from "next/link";
+import NavItem from "./NavItem";
+import { PopupButton } from "react-calendly";
 import { useRootContext } from "@/context/context";
 import headerData from "@/data/headerData";
 import useScroll from "@/hooks/useScroll";
-import Link from "next/link";
-import React from "react";
-import { Image } from "react-bootstrap";
-import NavItem from "./NavItem";
-import { PopupButton } from "react-calendly";
+
 const { logo, navData } = headerData;
-import Calendly from "../Calendly";
 
 const Header = () => {
   const { scrollTop } = useScroll(100);
@@ -33,7 +33,7 @@ const Header = () => {
               </a>
             </Link>
             <button onClick={toggleMenu} className="menu-toggler">
-              <span className="fa fa-bars"></span>
+              <span className={`fa ${menuStatus ? "fa-times" : "fa-bars"}`}></span>
             </button>
           </div>
           <div
@@ -48,32 +48,11 @@ const Header = () => {
             </ul>
           </div>
           <div className="right-side-box">
-           
-               <div className="App">
-      {/* <PopupButton
-        url="https://calendly.com/udevesh721/meet" className="thm-btn header-one__btn"
-      
-        rootElement={document ? document.getElementById("root") : " "}
-        text="Click here to schedule!"
-      /> */}
-      <a href="https://calendly.com/povproductionofficial"className="thm-btn header-one__btn" >Click here to schedule!</a>
-
-
-
-        {/* <div className="container">
-      <h1>Schedule an Appointment</h1>
-      <Calendly url="https://calendly.com/olivemonk/interview" />
-    </div>
-     */}
-       {/* <a
-        href="https://wa.me/9039819078"
-        class="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="fa fa-whatsapp whatsapp-icon"></i>
-      </a> */}
-    </div>
+            <div className="App">
+              <a href="https://calendly.com/povproductionofficial" className="thm-btn header-one__btn" >
+                Click here to schedule!
+              </a>
+            </div>
           </div>
         </div>
       </nav>
