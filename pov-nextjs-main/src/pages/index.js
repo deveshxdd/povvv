@@ -15,13 +15,13 @@ import ServiceOne from "@/components/ServiceOne/ServiceOne";
 import TestimonialsOne from "@/components/TestimonialsOne/TestimonialsOne";
 import Faqq from "@/components/Faq/Faqq";
 import React from "react";
-// import Chat from "@/components/Chatbot/Chat";
+import Chat from "@/components/Chatbot/Chat";
 const Home = () => {
   return (
     <Layout pageTitle="Home One">
       <BannerOne />
       <ServiceOne />
-{/* <Chat /> */}
+<Chat />
       <CtaThree />
       <CtaTwo />
       <PricingOne />
