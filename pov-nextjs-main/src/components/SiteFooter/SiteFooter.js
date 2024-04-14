@@ -7,27 +7,36 @@ const { logo, author, year, links, socials } = footerData;
 import emailjs from '@emailjs/browser';
 
 const SiteFooter = () => {
+  const [submitted, setSubmitted] = useState(false); // Define submitted state
+  const [emailValue, setEmailValue] = useState(""); // Define state for email input value
   const ref = useActive("#contact");
-    const formRef = useRef();
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs
-        .sendForm('service_vevdqgf', 'template_bkzoq2u', formRef.current, {
-          publicKey: 'CI3v3JTLHKAgc8W80',
-        })
-        .then(
-          () => {
-            console.log('SUCCESS!');
-            setSubmitted(true); // Set submitted to true after successful submission
-            formRef.current.reset(); // Reset form fields after successful submission
-          },
-          (error) => {
-            console.log('FAILED...', error.text);
-          },
-        );
-    
+  const formRef = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_vevdqgf', 'template_bkzoq2u', formRef.current, {
+        publicKey: 'CI3v3JTLHKAgc8W80',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          setSubmitted(true); // Set submitted to true after successful submission
+          formRef.current.reset(); // Reset form fields after successful submission
+          setEmailValue(""); // Reset email input field value
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   }
+
+  const handleEmailChange = (e) => {
+    setEmailValue(e.target.value);
+  }
+
+
 
   return (
     <footer className="site-footer">
