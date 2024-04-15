@@ -15,7 +15,6 @@ const CommentForm = () => {
         publicKey: 'CI3v3JTLHKAgc8W80',
       })
 
-      
       .then(
         () => {
           console.log('SUCCESS!');
