@@ -30,9 +30,9 @@ const CommentOne = ({ comments = [] }) => {
                   <p className="comment-one__text">{text}</p>
                 </div>
                 <div className="comment-one__top-right">
-                  <a href="#" className="comment-one__reply">
+                  {/* <a href="#" className="comment-one__reply">
                     Reply
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

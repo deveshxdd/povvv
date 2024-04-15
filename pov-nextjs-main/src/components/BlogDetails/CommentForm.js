@@ -1,19 +1,36 @@
-import React from "react";
+import React , { useRef , useState } from "react";
+import useActive from "@/hooks/useActive";
 import { Col, Row } from "react-bootstrap";
-
+import emailjs from '@emailjs/browser';
 const CommentForm = () => {
-  const handleSubmit = (e) => {
+  const ref = useActive("#contact");
+  const formRef = useRef();
+  const [submitted, setSubmitted] = useState(false);
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
-    const data = {};
-    formData.forEach((value, name) => (data[name] = value));
-    console.log(data);
-  };
+
+    emailjs
+      .sendForm('service_vevdqgf', 'template_bkzoq2u', formRef.current, {
+        publicKey: 'CI3v3JTLHKAgc8W80',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          setSubmitted(true); // Set submitted to true after successful submission
+          formRef.current.reset(); // Reset form fields after successful submission
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  }
+
 
   return (
     <>
       <h2 className="blog-details__content-title">Leave a Comment</h2>
-      <form onSubmit={handleSubmit} className="reply-form">
+      <form ref={formRef} onSubmit={sendEmail} className="reply-form">
         <Row>
           <Col lg={6}>
             <input
